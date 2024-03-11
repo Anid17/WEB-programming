@@ -1,0 +1,11 @@
+<?php
+require 'vendor/autoload.php'; // Include FlightPHP autoloader
+
+// Define a route
+Flight::route('/', function(){
+    echo 'Hello, world!';
+});
+
+// Start FlightPHP
+Flight::start();
+?>

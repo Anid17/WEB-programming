@@ -1,0 +1,6 @@
+{
+    "name": "yourusername/web-project",
+    "require": {
+        "mikecao/flight": "^3.6"
+    }
+ }
