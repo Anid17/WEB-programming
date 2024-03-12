@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="SpecijalCSS.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           
+        </nav>
+    </header>
+    
+
+    <!-- Slide Menu -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776; Menu</label>
+    <aside id="menu" class="slide-menu">
+        <h2> . </h2>
+        <ul>
+            <li><a href="#">ICE CREAM</a></li>
+            <li><a href="#">COOFFEE</a></li>
+            <li><a href="#">WAFFLES</a></li>
+            <li><a href ="#">COOKIES</a></li>
+            <li><a href ="#">CAKES</a></li>
+            <li><a href ="#">ORDER NOW</a></li>
+
+            <!-- Add more flavours later + add a brief history and changes since 1981 (+photos)-->
+            <!-- links for menus-->
+        </ul>
+    </aside>
+
+    <main>
+        <h1 class="heading">Slastičarna "Specijal" Jelah</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="4.jpg" alt="Vanilla Ice Cream">
+                    <h2>Vanilla ice cream </h2>
+                    <p>A classic flavor loved by everyone!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="1.jpg" alt="Chocolate Ice Cream">
+                    <h2>Chocolate mix</h2>
+                    <p>Indulge in rich, creamy chocolate goodness.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="8.jpg" alt="Waffles">
+                    <h2>Waffles</h2>
+                    <p>Sweetness topped on warm Waffles.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+           
+            <div class="mySlides fade">
+                <img src="6.jpg" alt="Ice cream picture">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="2.jpg" alt="Logo of Specijal">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="9.jpg" alt="Specijal kup">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="3.jpg" alt ="Ice cream pic">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </main>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 SPECIJAL </p>
+        <p> Contact us : 032-666-292 </p>
+        <!-- Add INSTA + FB? -->>
+    </footer>
+
+</body>
+</html>

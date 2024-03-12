@@ -1,0 +1,162 @@
+main {
+    flex: 1;
+}
+
+body {
+    background-image: url("backpicc2.webp"); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: -200px; 
+    width: 200px;
+    height: 100%;
+    background-color: #1190d0;
+    z-index: 900;
+    padding: 20px;
+    transition: left 0.3s ease;
+}
+
+#menu-toggle:checked ~ #menu {
+    left: 0; 
+}
+
+.slide-menu h2 {
+    margin-top: 25px;
+}
+
+.slide-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.slide-menu ul li {
+    margin-bottom: 10px;
+}
+
+.slide-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.slide-menu ul li a:hover {
+    color: #007bff;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 5px; 
+    font-size: 45px; 
+    font-weight: bold;
+    color: #333; 
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px; 
+}
+
+.mySlides img { /** images bottom **/
+    width: 100px; 
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.col-md-4 img { /** images top **/
+    width: 50%;
+    height: 200px;
+    margin-top: 72px;
+    overflow: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fade animation */
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
